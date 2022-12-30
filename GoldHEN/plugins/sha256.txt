@@ -1,0 +1,6 @@
+SHA256:
+5d39326745ecd0d4d674de5513481e50  plugins/afr.prx
+627f73ee282853731806885f4bfa719b  plugins/button_swap.prx
+2fa11aad5cc39b8ff83b425ad0019955  plugins/fliprate_remover.prx
+4648e7120e59490bc5fe18ab1a942946  plugins/game_patch.prx
+524d26d311d1adb24b28d86b6b2eac6b  plugins/no_share_watermark.prx
