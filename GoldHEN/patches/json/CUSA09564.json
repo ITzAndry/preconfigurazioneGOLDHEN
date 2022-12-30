@@ -1,0 +1,16 @@
+{
+  "patch": [
+    {
+      "title": "Uncharted: The Lost Legacy",
+      "app_ver": "01.09",
+      "app_elf": "eboot.bin",
+      "patch_ver": "1.0",
+      "name": "Intro Skip",
+      "author": "illusion",
+      "patch_list": [
+        { "type": "bytes", "addr": "0x017238b7", "value": "eb4c" }
+      ]
+    }
+  ],
+  "base_file": "patches/json/UnchartedTheLostLegacy-Orbis.json"
+}

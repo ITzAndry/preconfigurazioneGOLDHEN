@@ -1,0 +1,16 @@
+{
+  "patch": [
+    {
+      "title": "Call of Duty: Black Ops 4 (IIII)",
+      "app_ver": "01.00",
+      "app_elf": "eboot.bin",
+      "patch_ver": "1.0",
+      "name": "Bypass Update Reqiured Screen",
+      "author": "DeathRGH",
+      "patch_list": [
+        { "type": "bytes", "addr": "0x00e3103b", "value": "4189d1" }
+      ]
+    }
+  ],
+  "base_file": "patches/json/CallOfDuty-BlackOps4-Orbis.json"
+}
