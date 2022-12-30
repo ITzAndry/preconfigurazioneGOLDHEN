@@ -1,0 +1,17 @@
+{
+  "patch": [
+    {
+      "title": "Resident Evil: HD",
+      "app_ver": "01.00",
+      "app_elf": "eboot.bin",
+      "patch_ver": "1.0",
+      "name": "60 FPS Unlock",
+      "author": "illusion",
+      "patch_list": [
+        { "type": "bytes32", "addr": "0x004b494b", "value": "0x42700000" },
+        { "type": "bytes32", "addr": "0x004b494f", "value": "0x42700000" }
+      ]
+    }
+  ],
+  "base_file": "patches/json/ResidentEvilHD-Orbis.json"
+}

@@ -1,0 +1,16 @@
+{
+  "patch": [
+    {
+      "title": "Tekken 7",
+      "app_ver": "04.00",
+      "app_elf": "eboot.bin",
+      "patch_ver": "1.0",
+      "name": "Disable Post Processing",
+      "author": "illusion",
+      "patch_list": [
+        { "type": "bytes", "addr": "0x01efdedc", "value": "48e9" }
+      ]
+    }
+  ],
+  "base_file": "patches/json/Tekken7-Orbis.json"
+}
